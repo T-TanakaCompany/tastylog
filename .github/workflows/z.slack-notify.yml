@@ -3,7 +3,7 @@ name: "z slack Notify"
 on:
   workflow_dispatch:
 
-job:
+jobs:
   notify:
     name: Slack notify
     runs-on: ubuntu-latest
